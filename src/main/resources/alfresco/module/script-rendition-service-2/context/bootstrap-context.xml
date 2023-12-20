@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+    Spring XML configuration file for defining the Rendition Service 2 script bean.
+    This configuration file is used to declare a Spring bean that represents the
+    ScriptRenditionService2 class. It sets up the necessary dependencies and properties
+    for integrating the script bean into the Alfresco content management system.
+
+    The bean defined here is intended to be used for scripting purposes within Alfresco,
+    specifically to interact with the Rendition Service 2.
+
+    Note: The placeholder "ServiceRegistry" is used for the reference to the ServiceRegistry bean.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="renditionService2Script"
+          class="org.alfresco.repo.rendition.script.ScriptRenditionService2"
+          parent="baseJavaScriptExtension">
+        <property name="extensionName" value="renditionService2" />
+        <property name="serviceRegistry" ref ="ServiceRegistry" />
+    </bean>
+
+</beans>
