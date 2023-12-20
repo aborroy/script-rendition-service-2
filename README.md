@@ -1,6 +1,6 @@
 # Alfresco Repository JavaScript Root Object for RenditionService2
 
-This repository addon is designed to address the absence of the renditionService2 JavaScript Root Object in the current [Repository JavaScript API](https://docs.alfresco.com/content-services/latest/develop/reference/repo-root-objects-ref/), a component introduced in Alfresco 7.0 to replace the deprecated `renditionService`. The implementation provided by this project allows seamless integration and utilization of the `renditionService2 in your Repository JavaScript scripts.
+This repository addon is designed to address the absence of the `renditionService2` JavaScript Root Object in the current [Repository JavaScript API](https://docs.alfresco.com/content-services/latest/develop/reference/repo-root-objects-ref/), a component introduced in Alfresco 7.0 to replace the deprecated `renditionService`. The implementation provided by this project allows seamless integration and utilization of the `renditionService2` in your Repository JavaScript scripts.
 
 ## Building
 
